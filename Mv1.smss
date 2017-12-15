@@ -1,0 +1,16 @@
+Base Properties 
+ENGINE	Mv1
+OWL	db/Mv1/Mv1_OWL.OWL
+PIXEL_UPDATE	true
+PKQL_UPDATED	true
+RDBMS_INSIGHTS	db/Mv1/insights_database
+SOLR_RELOAD	false
+HIDDEN_DATABASE	false
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
+USE_OUTER_JOINS	false
+# USE_CONNECTION_POOLING	true
