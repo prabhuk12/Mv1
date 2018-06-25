@@ -14,3 +14,5 @@ PASSWORD
 CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
 USE_OUTER_JOINS	false
 # USE_CONNECTION_POOLING	true
+
+
